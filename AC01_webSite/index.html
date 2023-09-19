@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Como funciona um Computador?</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="email">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="senha">
+                        <label for="" >Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember me <a href="#">Forget Password</a></label>
+                    </div>
+                  </form>
+                    <button class="buttonLogIn" data-toggle="modal" data-target="#exampleModal" onclick="botaoLogIn()">
+                        Log in
+                      </button>
+                    <div class="register">
+                        <p>Dont have a account <a href="#">Register</a></p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Confirme que você não é um robô:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="check" onclick="check()">
+                    <label class="form-check-label" for="check">Não sou um Robô</label>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <a href="index1.html"><button type="button" class="btn btn-primary" onclick="botaoAvancar()" id="avancar" disabled>Avançar</button></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal-->
+
+      
+      <script type="text/javascript" src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</body>
+</html>
+
+<!--<div class="modal-body">
+
+<form name="form1">
+
+
+<p>
+    <input type="checkbox" name="habi" id="habi" onClick="HabiDsabi()"> Eu li e aceito os termos de uso 
+    <a target="_blank" href="tos.html">termos de uso</a>.
+  </p>
+ <input type="button" class="btn btn-terciary"  name="envia" id="envia" value="Assinar" onclick="assinar()" disabled></form>
+<-- fim do botão --
+</div-->

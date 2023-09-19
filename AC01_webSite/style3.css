@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+p{
+    font-size: large;
+}
+.redimencionar{
+    max-width:1500px;
+    max-height:770px;
+    width: auto;
+    height: auto;
+}
+button{
+    position: relative;
+  margin: 30px 0;
+}
